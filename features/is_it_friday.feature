@@ -8,7 +8,7 @@ Feature: Is it Friday yet?
     When I ask whether it's Friday yet
     Then I should be told "Nope"
 
-  @ORPHAN @MANUAL
+  @ORPHAN
   Scenario: Jira created scenario
     Given I have Behave Pro integrated to my project
     When I write a scenario
